@@ -1,0 +1,92 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    padding: 10px 0px 0px 0px;
+   
+   
+    
+}
+.menu{
+    display: flex;
+    
+    list-style-type: none;
+    gap: 20px;
+    
+}
+.navbar > button{
+   
+    height: 30px;
+    width: 70px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(241, 9, 9);
+    border: 0px;
+    color: white;
+   
+}
+img{
+    
+}
+.n{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:768px){
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        gap: 10px;
+        
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: 600;
+        padding: 10px 0px 0px 0px;
+   
+       font-size: 10px;
+        
+    }
+}
+@media screen and (max-width:426px){
+    .menu{
+        position: relative;
+        right: 20px;
+    }
+}
+@media screen and (max-width:376px){
+    .menu{
+        position: relative;
+        right: 20px;
+    }
+}
+@media screen and (max-width:320px){
+    .navbar > button{
+   
+        height: 20px;
+        width: 40px;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(241, 9, 9);
+        border: 0px;
+        color: white;
+       
+    }
+    img{
+        height: 30px;
+        width: 40px;
+    }
+    .menu{
+        position: relative;
+        right: 15px;
+    }
+    
+}
